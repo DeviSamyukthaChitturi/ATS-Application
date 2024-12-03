@@ -31,7 +31,7 @@ load_dotenv()
 
 # Configure the generative AI model with the Google API key
 # genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-genai.configure(api_key="AIzaSyCTG9IORZZC68dGIAawqSs8BF6vXRjtTFI")
+genai.configure(api_key="your API key")
 
 # Set up the model configuration for text generation
 generation_config = {
